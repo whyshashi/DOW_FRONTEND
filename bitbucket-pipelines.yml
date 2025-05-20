@@ -1,0 +1,26 @@
+image: node:21.6.1
+pipelines:
+  default:
+    - step:
+        name: Security Scan
+        script:
+          # Run a security scan for sensitive data.
+          - pipe: atlassian/git-secrets-scan:1.2.1
+            variables:
+              FILES: '*.yml'
+  branches:
+    cicdDev:
+      - step:
+          name: Build and Deploy to Dev Environment
+          caches:
+            - node
+          script:
+            # Install dependencies
+            - echo "Installing dependencies..."
+            - npm install
+            # Build the project
+            #- echo "Building the application..."
+            # - CI=false npm run build
+            # Deploy to the server
+            - echo "Deploying to the server..."
+            - bash ./scripts/dev.sh
