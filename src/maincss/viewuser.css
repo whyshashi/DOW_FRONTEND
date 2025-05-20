@@ -1,0 +1,33 @@
+.viewCard {
+  background-color: red;
+  width: 40%;
+  height: 50%;
+}
+
+.showCredentials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 24px 24px 24px 24px;
+  gap: 4px;
+}
+.showCredentials > label {
+  font-family: "Inter";
+  font-weight: 600;
+  size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+.showCredentials > span {
+  font-family: "Inter";
+  font-weight: 400;
+  size: 14px;
+  line-height: 20px;
+  color: #808080;
+}
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

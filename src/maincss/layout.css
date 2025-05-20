@@ -1,0 +1,42 @@
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+.outlet {
+  flex: 1;
+  height: calc(100vh - 130px - 61px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  width: 100%;
+}
+.outlet-change {
+  flex: 1;
+  height: calc(100vh - 130px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  width: 100%;
+}
+.outlet-dashboard {
+  flex: 1;
+  height: 100vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #ccc transparent;
+  width: 100%;
+  padding-bottom: 80px;
+}
+
+.outlet::-webkit-scrollbar {
+  display: none;
+}

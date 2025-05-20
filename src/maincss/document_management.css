@@ -1,0 +1,24 @@
+/* .document-management-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5vh;
+} */
+.grid-container {
+  display: grid; /* Enables grid layout */
+  grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+  gap: 10px; /* Space between grid items */
+  padding: 20px 50px 20px 5px;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+.selection-option {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.document-management-all-content {
+  /* margin: 3vh; */
+  border: 5px;
+  /* background-color: white; */
+}

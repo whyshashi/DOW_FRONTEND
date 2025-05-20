@@ -1,0 +1,35 @@
+.doc-preview-content {
+  box-sizing: border-box;
+  max-height: calc(100vh - 60px); /* Prevents overflow */
+  overflow-y: auto;
+  overflow-x: auto;
+  overflow-wrap: x;
+  /* padding: 1rem 1.5rem; */
+}
+.doc-prev-title {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 28px;
+  letter-spacing: 0%;
+  gap: 8px;
+  padding-top: 16px;
+  padding-right: 48px;
+  padding-bottom: 24px;
+  padding-left: 48px;
+}
+.doc-prev-body{
+  line-height: 28px;
+  letter-spacing: 0%;
+  gap: 8px;
+  padding-right: 1.9rem;
+  padding-bottom: 24px;
+  padding-left: 1.5rem;
+}
+.nopreview{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

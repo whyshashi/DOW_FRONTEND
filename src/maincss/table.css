@@ -1,0 +1,43 @@
+.css-1orzuox-MuiTableCell-root {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+  text-align: left;
+  padding: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  line-height: 1.5rem;
+  font-weight: 500;
+  border: 1px solid #ececec;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.MuiTableContainer-root.css-y2ff7i-MuiPaper-root-MuiTableContainer-root {
+  border: 1px solid #ececec;
+  border-radius: 20px;
+  max-height: 100%;
+  overflow-y: auto;
+  /* height: calc(100%-100px); */
+}
+.css-1a7iywq-MuiTableHead-root {
+  background-color: #f8f8f8;
+}
+
+td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-1dc80h3-MuiTableCell-root {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-transform: capitalize;
+}
+th.MuiTableCell-root.MuiTableCell-head.MuiTableCell-sizeMedium.css-1orzuox-MuiTableCell-root {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  text-transform: capitalize;
+}

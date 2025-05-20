@@ -1,0 +1,141 @@
+.doc-prev-title{
+    width: 100%;
+    height: 6.55rem;
+    gap: 8px;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+    padding-left: 48px;
+    margin-top: 4rem;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:#333333;
+    /* background-color: pink; */
+}
+.doc-navbar-q{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6px;
+  padding-right: 17px;
+  padding-bottom: 6px;
+  /* padding-left: 12px; */
+  background: #ffffff;
+  border-bottom: 1px solid #dadada;
+  /* display: flex; */
+  /* align-items: center; */
+  width: 50%;
+  position: fixed;
+  /* justify-content: space-between; */
+  z-index: 10;
+}
+.nav-title{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color:#333333;
+    
+}
+.doc-prev-body{
+    gap: 16px;
+    padding-right: 48px;
+    padding-left: 1.9rem;
+    
+}
+/* Container for the entire preview */
+  /* Each question card */
+  .question-card {
+    width: 860;
+    height: 228;
+    gap: 16px;
+    padding-right: 48px;
+    padding-left: 48px;
+    gap: 1rem;
+  }
+  
+  /* Question text styling */
+  .question-text {
+    margin-bottom: 10px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #333333;
+    margin-top: 1rem;
+  }
+  
+  /* Options container (flex column like in Addoptions) */
+  .options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Individual option item */
+  .option-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  
+  /* Highlight correct answers */
+  .option-item.correct {
+    /* background-color: lightgreen; */
+    font-weight: bold;
+    width: 100%;
+  }
+  .css-1umw9bq-MuiSvgIcon-root{
+    /* fill:#808080 !important; */
+    /* background-color: #F04141; */
+  }
+  /* Style for MUI Checkbox & Radio */
+  .MuiCheckbox-root svg,
+  .MuiRadio-root svg {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    
+  }
+  
+  /* Checked state styling */
+  .Mui-checked {
+    color: #F04141 !important;
+    fill: #F04141 !important;
+  }
+ 
+  
+  /* Navbar Styles */
+  /* .doc-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #e8e8e8;
+  }
+   */
+  /* Navbar Title */
+  .nav-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+ .q-footer{
+  position: fixed;
+  background-color: green;
+  height: 10px;
+ }

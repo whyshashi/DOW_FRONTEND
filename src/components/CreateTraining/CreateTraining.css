@@ -1,0 +1,445 @@
+.doc-navabr-border {
+  height: 4px;
+  background-color: #F04141;;
+  width: 50%;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  /* margin-top: 5px; */
+}
+
+.doc-navabr-border-grey {
+  height: 4px;
+  background-color: #dadada;
+  width: 50%;
+}
+/* Main Container */
+.create-training {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* height: calc(100vh - 2px) ; */
+}
+.create-train-container {
+  width: 100%;
+  height: calc(100vh - 141px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow-y: auto;
+  background: #f8f8f8;
+}
+
+/* Header Section */
+/* Navbar container */
+.create-train-info {
+  display: flex;
+  justify-content: space-between;
+  /* height: 14%; */
+  gap: 16px;
+  border-bottom-width: 1px;
+  padding:24px;
+  border: 1px solid #e8e8e8;
+  background-color: #f8f8f8;
+}
+
+.select-category {
+  width: 100%;
+}
+.select-category select {
+  width: 100%;
+  height: 50px;
+  gap: 4px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #333333;
+}
+
+.create-train-info input {
+  /* padding: 16px; */
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  font-weight: 400;
+  font-size: 14px;
+  color: #333333;
+
+  /* {gpt you have to do this}:
+  /* // On click
+// Navigate to: "None";
+// Animate: Dissolve;
+animation-timing-function: ease-in-out;
+animation-duration: 300ms; */
+}
+.select-category label {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #808080;
+  display: block; /* Ensure the label is on its own line */
+  margin-bottom: 8px;
+  /* margin-top: 1.5rem; */
+}
+
+/* Document Title Input */
+.create-train-title {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  gap: 8px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  background-color: #f8f8f8;
+}
+.create-train-title input {
+  width: 100%;
+  height: 50px;
+  gap: 4px;
+  /* margin-bottom: 10px; */
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #333333;
+
+  /* {gpt you have to do this}:
+  /* // On click
+// Navigate to: "None";
+// Animate: Dissolve;
+animation-timing-function: ease-in-out;
+animation-duration: 300ms; */
+}
+/* Add Image Section */
+.cover-img {
+  position: relative;
+  width: 100%;
+  min-height: 8.5rem;
+  height: auto;
+  border: 1px solid #e8e8e8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #ffffff;
+  overflow: hidden;
+  /* margin-bottom: 1rem; */
+  gap: 4px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding: 16px;
+  border-radius: 0.5rem;
+}
+
+.cover-img img.cover-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+/* Upload Image */
+.upload-imgt {
+  display: flex;
+  flex-direction: column;
+  min-height: 8rem;
+  height: 100%;
+  width: 40%;
+  /* margin-top: 1.5rem; */
+  /* margin-left: 1rem; */
+  gap: 0.25rem;
+}
+
+.upload-imgt-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #808080;
+}
+
+.image-preview-container {
+  position: relative;
+  display: inline-block;
+}
+
+.remove-image-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.plus-i-train {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+}
+
+.remove-icon:hover {
+  background: red;
+}
+
+/* Main Body Container */
+.body {
+  display: flex;
+  flex-direction: column;
+}
+.create-train-body {
+  width: 100%;
+  min-height: 350px;
+  max-height: 100%;
+  gap: 4px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 1.5rem;
+  padding-bottom:0rem;
+  padding-top: 0px;
+  /* border: 1px solid #e8e8e8; */
+  background-color: #f8f8f8;
+
+  /* background-color: #861111; */
+}
+.create-train-title {
+  display: flex;
+  flex-direction: column;
+  padding: 1.2rem 1.5rem;
+  background-color: #f8f8f8;
+  color: #808080;
+  gap: 0.5rem;
+}
+
+.create-train-title label {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.create-train-title input {
+  padding: 0.8rem;
+  /* border: 1px solid #ddd; */
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+/* Body Text Editor */
+.create-train-title {
+  flex-grow: 1;
+  /* border: 1px solid #ddd; */
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.create-train-body-heading {
+  font-weight: 500;
+  font-size: 14px;
+  color: #808080;
+}
+/* Footer Buttons */
+/* Footer Buttons */
+.preview {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  color: #808080;
+  cursor: pointer;
+}
+.visibility {
+  display: flex;
+}
+.visibility img {
+  margin: 5px;
+  width: 14.666666030883789;
+  top: 3px;
+  left: 0.67px;
+}
+.create-train-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 19px 16px 24px;
+  gap: 16px;
+  background: #f8f8f8;
+  margin-bottom: 0px;
+}
+.safety-footer-btn {
+  display: flex;
+  gap: 1rem;
+}
+
+/* General Button Styling */
+.create-doc-footer button {
+  padding: 12px 24px;
+  border-radius: 80px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid transparent;
+  margin-right: 10px;
+}
+
+/* Cancel Button */
+.create-doc-footer .cancel-btn {
+  background: transparent;
+  background-color: #808080;
+  border: 1px solid #e8e8e8;
+  /* z-index: 10; */
+}
+
+.create-doc-footer .cancel-btn:hover {
+  background: #e0e0e0;
+}
+
+/* Save Button */
+.create-doc-footer .save-btn {
+  background:#F04141;
+  color: #ffffff;
+  border: none;
+  /* z-index: 10; */
+}
+
+.create-doc-footer .save-btn:hover {
+  background: #1aa676;
+}
+
+/* --- Jodit List Styling (Ensuring Proper Indentation & Spacing) --- */
+/* Jodit Text Editor */
+.text-editor {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+/* Ensure Jodit toolbar stays at the bottom */
+.text-editor .jodit-container {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-grow: 1;
+}
+
+/* Limit the height of JoditEditor content area */
+.jodit-wysiwyg {
+  max-height: 220px;
+  min-height: 220px;
+  overflow-y: auto;
+  /* padding: 5px !important; */
+  /* text-align: left !important; */
+  vertical-align: top !important;
+}
+
+/* Ensures placeholder is aligned top-left */
+/* .jodit-placeholder {
+  position: absolute !important;
+  top: 5px !important;
+  left: 5px !important;
+  text-align: left !important;
+} */
+
+/* .jodit-wysiwyg ul {
+  list-style-type: disc !important;
+  margin-left: 20px !important;
+} */
+
+.jodit-wysiwyg ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* Custom Roman numeral lists */
+/* .jodit-wysiwyg ol[data-list="lower-roman"] {
+  list-style-type: lower-roman !important;
+}
+.jodit-wysiwyg ol[data-list="lower-greek"] {
+  list-style-type: lower-greek !important;
+}
+.jodit-wysiwyg ol[data-list="lower-alpha"] {
+  list-style-type: lower-alpha !important;
+}
+
+.jodit-wysiwyg ol[data-list="upper-roman"] {
+  list-style-type: upper-roman !important;
+} */
+/* .jodit-toolbar-editor-collection_size_middle.jodit-toolbar-editor-collection_mode_horizontal {
+
+} */
+
+.text-editor {
+  height: auto;
+  max-height: none; /* Allow infinite height */
+  overflow: auto; /* Enables scrolling */
+}
+
+.select-category select {
+  padding: 0.8rem;
+  gap: 4px;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  appearance: none; /* Hides the default dropdown arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' width='18' height='18' fill='%23666'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  cursor: pointer;
+}
+
+/* Ensure select wrapper is positioned correctly */
+.select-category {
+  position: relative;
+}
+
+/* Optional: Add padding to prevent text overlap with the icon */
+.select-category select {
+  padding-right: 2.5rem;
+} 

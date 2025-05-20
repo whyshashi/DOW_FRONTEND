@@ -1,0 +1,180 @@
+.container1 {
+  display: flex;
+  gap: 10px;
+  height: 69px;
+  justify-content: center;
+}
+.wrap3 {
+  width: 50%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+.small_form {
+  height: 519px;
+  width: 441px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  gap: 40px;
+}
+.logo {
+  margin-top: 21.44px;
+  margin-right: 7px;
+}
+.error-text {
+  color: red;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+}
+.container2 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.go_text {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #808080;
+}
+.sixth {
+  width: 110px;
+  height: 17px;
+  color: #f04141;
+}
+.error-text {
+  color: red;    
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+
+}
+
+.login_cont {
+  border-radius: 8px;
+  border: 8px;
+  cursor: pointer;
+  margin-top: 20px; /* Add space above the button */
+  width: 100%; /* Full width (optional) */
+  padding: 16px 144px; /* Shorthand for top/right/bottom/left padding */
+  box-sizing: border-box;
+  background-color: #f04141;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+.outer_main {
+  justify-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.pass_prop {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.left_half {
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none; /* Remove any border */
+}
+.main_img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover; /* Fill container without distortion */
+  display: block; /* Remove inline space */
+}
+
+input.text_input {
+  padding: 16px;
+  gap: 4px;
+  border: none;
+  border-width: 1px;
+  width: 100%;
+  border-radius: 0px;
+  outline: none;
+  background-color: white !important;
+}
+input.text_input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background-color: white !important;
+}
+
+.goodeye {
+  filter: grayscale(100%);
+}
+.login_form {
+  text-align: left;
+  gap: 20px;
+}
+.img_text1 {
+  font-size: 42px;
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: black;
+  width: 685;
+  height: 150;
+}
+.img_text2 {
+  font-size: 24px;
+  top: 80%;
+  left: 20%;
+}
+.cont2 {
+  width: 752px;
+  height: 114px;
+}
+.outer_cont {
+  width: 752px;
+  height: 280.875px;
+  top: 699px;
+  left: 100px;
+  gap: 16.88px;
+}
+.inputwrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 12px;
+  width: 361px;
+  height: 56px;
+}
+.form-group {
+  margin-bottom: 14px;
+}
+.go_text {
+  margin-bottom: 10px;
+}
+/* For the logo section */
+.mainLogoResize {
+  height: 3.5rem;
+}

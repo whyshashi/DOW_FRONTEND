@@ -1,0 +1,112 @@
+.both-incident-update-action-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+
+  height: 100%;
+  margin: 2vh;
+  text-align: left;
+}
+.update-action-div {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  height: 60%;
+  border-radius: 16px;
+  border: 1px solid #e8e8e8;
+  padding: 24px;
+  gap: 28px;
+  width: 25%;
+}
+.action-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+}
+label {
+  color: #808080;
+  font: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+.incident-data-div {
+  background: #ffffff;
+  height: 70vh;
+  width: 70%;
+  border: 1px solid #e8e8e8;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 16px;
+}
+.incident-data-inner-div {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 24px;
+}
+.incident-data-inner-div span {
+  font: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #808080;
+  text-transform: capitalize;
+}
+.incident-data-inner-div {
+  font: "Inter";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: #333333;
+}
+.data-top-layer {
+  height: 22%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.images img {
+  border-radius: 7px;
+}
+.action-box {
+  min-height: 150px;
+  scrollbar-width: thin;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  padding: 16px;
+  gap: 4px;
+}
+.action-btn {
+  border-radius: 63px;
+  border: 1px solid #e8e8e8;
+  padding: 16px 24px 16px 24px;
+  gap: 8px;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 32px;
+  color: #f8f8f8;
+  background-color: #F04141;
+  text-align: right;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+}
+.full_box{
+  width:100%;
+}

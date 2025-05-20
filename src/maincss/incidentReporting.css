@@ -1,0 +1,28 @@
+.incident-reporting-table {
+  border-radius: 16px;
+  gap: 12px;
+  padding: 0px 16px 16px 16px;
+  margin-top: 3vh;
+}
+.incident-chart-div {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  padding: 0px 16px 0px;
+  gap: 16px;
+  width: 100%;
+  /* height: 50%; */
+}
+.incident-card {
+  display: flex;
+  background: white;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 16px;
+  gap: 16px;
+}
+.boxes{
+  display:flex;
+  gap: 20px;
+}

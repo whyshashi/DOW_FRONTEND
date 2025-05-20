@@ -1,0 +1,194 @@
+@use "../../styles/variables" as *;
+
+.footer_container {
+  padding: 0 5%;
+
+  .upper_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+
+    @media screen and (max-width: 1024px) {
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .footer_left {
+      display: flex;
+      flex-direction: column;
+      gap: 21px;
+      max-width: 300px;
+
+      @media screen and (max-width: 1024px) {
+        align-items: center;
+      }
+
+      .ehs_logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        @media screen and (max-width: 1024px) {
+          justify-content: center;
+        }
+
+        .ehs_icon {
+          img {
+            max-width: 100%;
+            height: auto;
+            width: 100px;
+          }
+        }
+      }
+
+      .footer_left_text {
+        font-weight: 400;
+        font-size: clamp(14px, 1.2vw, 16px);
+        line-height: 24px;
+        letter-spacing: 0%;
+        text-decoration: none;
+        color: $footer-color;
+
+        @media screen and (max-width: 1024px) {
+          text-align: center;
+        }
+      }
+    }
+
+    .footer_middle {
+      display: flex;
+      gap: 91px;
+
+      @media screen and (max-width: 1024px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .middle_left_section,
+      .middle_right_section {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        @media screen and (max-width: 1024px) {
+          align-items: center;
+        }
+      }
+    }
+
+    .footer_middle a {
+      font-weight: 400;
+      font-size: clamp(14px, 1.2vw, 16px);
+      line-height: 24px;
+      letter-spacing: 0%;
+      text-decoration: none;
+      color: $footer-color;
+      text-align: center;
+
+      @media screen and (max-width: 1024px) {
+        text-align: center;
+      }
+    }
+
+    .footer_middle a:hover {
+      color: $secondary-color;
+    }
+
+    .footer_right {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 300px;
+
+      @media screen and (max-width: 1024px) {
+        align-items: center;
+        text-align: center;
+      }
+
+      .footer_right_text {
+        font-weight: 400;
+        font-size: clamp(14px, 1.2vw, 16px);
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: $footer-color;
+      }
+
+      .footer_contact {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+
+        .contact {
+          font-weight: 600;
+          font-size: clamp(14px, 1.2vw, 16px);
+          line-height: 24px;
+          letter-spacing: 0%;
+          color: $footer-color;
+        }
+      }
+
+      .footer_address {
+        font-weight: 600;
+        font-size: clamp(14px, 1.2vw, 16px);
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: $footer-color;
+        text-align: center;
+      }
+    }
+  }
+
+  .lower_footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid mix($secondary-color, transparent, 20%);
+    padding: 0 5%;
+
+    .lower_footer_text {
+      color: $footer-color;
+      font-weight: 400;
+      font-size: clamp(12px, 1.2vw, 16px);
+      line-height: 26px;
+      letter-spacing: 0%;
+      margin-top: 27px;
+      margin-bottom: 27px;
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 3%;
+
+    .upper_footer {
+      .footer_left {
+        .ehs_logo {
+          .ehs_icon {
+            img {
+              width: 80px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .upper_footer {
+      .footer_left {
+        .ehs_logo {
+          .ehs_icon {
+            img {
+              width: 60px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

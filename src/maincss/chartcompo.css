@@ -1,0 +1,66 @@
+.chart-select {
+  border-radius: 8px;
+  padding: 8px 8px 8px 16px;
+  gap: 8px;
+  background-color: #ffffff;
+  border: 1px solid #e8e8e8;
+  color: #808080;
+}
+
+.chart-top-layer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+  /* padding-bottom: 10px; */
+  /* border-bottom: 1px solid #d2d2d2; */
+  width: 100%;
+}
+/* .chart-top-left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+} */
+.chart-compo-full-chart {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  border: 1px solid rgba(232, 232, 232, 0.5);
+  /* Converted #E8E8E880 to rgba */
+  gap: 8px;
+  padding: 24px;
+  background-color: #ffffff;
+  margin-top: 12px;
+  /* margin-left: 12px; */
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.chart-title {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* Adjusts for vertical trim */
+  letter-spacing: 0.25%;
+  color: #333333;
+}
+.chart-subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* Adjusts for vertical trim */
+  letter-spacing: 0.25%;
+  color: #808080;
+}
+/* .line-doughnot-chart {
+  height: 250vh;
+  width: 15vw;
+  gap: 20px;
+} */
+
+.secondLayerLineChartCompo {
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,51 @@
+.addoption {
+    display: flex;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .option-input {
+    display: flex;
+    justify-content: flex-start;
+    width: 89.5%;
+  }
+  
+  .option-input input {
+    font-size: 1rem;
+    width: 92.1%;
+    height: 65%;
+    gap: 4px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+  }
+  
+  .option-input img {
+    margin-left: -1.8rem;
+    cursor: pointer;
+    z-index: 16;
+  }
+  
+  .checkboxinput {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    /* justify-content: flex-end;
+    width: 10.9%;
+    accent-color: #F04141;  */
+  }
+  
+  /* MUI Checkbox adjustments */
+  .MuiCheckbox-root svg {
+    font-size: 1.5rem; 
+  }
+
+  .Mui-checked {
+    color: #F04141;
+  }
+  

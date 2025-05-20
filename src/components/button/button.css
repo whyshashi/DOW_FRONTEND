@@ -1,0 +1,46 @@
+.nav-button {
+    /* padding: 16px 20px 16px 16px; */
+    gap: 8px;
+    border-radius: 63px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    /* opacity: 0px; */
+  }
+  
+  
+  
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:8px;
+    padding: 12px 20px;
+    font-size: 15px;
+    background-color: #F04141;
+    color: #F8F8F8;
+    border: 1px solid #E8E8E8;
+    border-radius: 63px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+    height: 48px;
+    border: 1px solid #e8e8e8;
+  }
+  
+  .icon {
+    font-size: 22px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .btn-text {
+    width: auto;
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    /* background: #F8F8F8; */
+  }
+  

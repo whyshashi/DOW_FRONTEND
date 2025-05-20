@@ -1,0 +1,65 @@
+/* Navbar container */
+.doc-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6px;
+  padding-right: 17px;
+  padding-bottom: 6px;
+  /* padding-left: 12px; */
+  background: #ffffff;
+  border-bottom: 1px solid #dadada;
+}
+.doc-navbar-2 {
+  border-bottom: 5px solid #F04141;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 6px;
+  padding-right: 17px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  background: #ffffff;
+}
+
+/* Left and Right Icons */
+.close,
+.revision {
+  display: flex;
+  align-items: center;
+  width: 24;
+  height: 24;
+  padding: 10px;
+  gap: 4px;
+  border-radius: 6px;
+  /* // On click
+// Action: "Close overlay"; */
+}
+
+/* Images */
+.close-img,
+.rv-img {
+  /* Style="Round"; */
+  color: #808080;
+  cursor: pointer;
+}
+
+/* Navbar Title (Centered) */
+.nav-title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #333333;
+}
+
+/* Revision Text */
+.revision-text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  color: #808080;
+}
