@@ -29,6 +29,8 @@ This panel is designed to help organizations ensure workplace safety, comply wit
 - **Email:** `admin@gmail.com`  
 - **Password:** `password`
 
+---
+
 
 ## ✅ Features
 
