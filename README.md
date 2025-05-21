@@ -8,6 +8,28 @@ This panel is designed to help organizations ensure workplace safety, comply wit
 
 ---
 
+## 🔗 Useful Links
+
+- 🌐 **Landing Page:**  
+  [http://3.92.185.115](http://3.92.185.115)
+
+- 🔐 **Admin Login Page:**  
+  [http://3.92.185.115/login](http://3.92.185.115/login)
+
+- 🖥️ **Frontend GitHub Repository:**  
+  [https://github.com/whyshashi/DOW_FRONTEND](https://github.com/whyshashi/DOW_FRONTEND)
+
+- 🗄️ **Backend GitHub Repository:**  
+  [https://github.com/whyshashi/DOW_BACKEND](https://github.com/whyshashi/DOW_BACKEND)
+
+---
+
+## 🧪 Admin Test Credentials
+
+- **Email:** `admin@gmail.com`  
+- **Password:** `password`
+
+
 ## ✅ Features
 
 ### 🧭 Dashboard & Analytics
