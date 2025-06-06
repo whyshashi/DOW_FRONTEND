@@ -72,7 +72,7 @@ const LoginPage = () => {
       <div className="left_half">
         <img
           src={
-            "https://summer2025bucket.s3.ap-south-1.amazonaws.com/DOW_IMAGES/homepageimageresize.png"
+            "https://mysummerbucket25.s3.ap-south-1.amazonaws.com/logodowpng.png"
           }
           alt="Login"
           className="main_img"
@@ -99,6 +99,7 @@ const LoginPage = () => {
                   <input
                     className="text_input"
                     type="email"
+                    defaultValue="admin@gmail.com"
                     placeholder="Enter email here"
                     {...register("email", {
                       required: "Email is required",
@@ -122,6 +123,7 @@ const LoginPage = () => {
                     className="text_input"
                     type={showPassword ? "text" : "password"}
                     placeholder="Enter your password"
+                    defaultValue="password"
                     {...register("password", {
                       required: "Password is required",
                     })}

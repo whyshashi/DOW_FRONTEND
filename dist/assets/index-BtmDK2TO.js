@@ -42072,7 +42072,7 @@ main$1.exports.decrypt = DotenvModule.decrypt;
 main$1.exports.parse = DotenvModule.parse;
 main$1.exports.populate = DotenvModule.populate;
 main$1.exports = DotenvModule;
-const API_BASE_URL = "http://3.92.185.115/backend/api";
+const API_BASE_URL = "http://localhost:8000/api";
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL
 });
@@ -124536,7 +124536,7 @@ const LoginPage = () => {
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "left_half", children: /* @__PURE__ */ jsxRuntimeExports.jsx(
       "img",
       {
-        src: "https://summer2025bucket.s3.ap-south-1.amazonaws.com/DOW_IMAGES/homepageimageresize.png",
+        src: "https://mysummerbucket25.s3.ap-south-1.amazonaws.com/logodowpng.png",
         alt: "Login",
         className: "main_img"
       }
@@ -124560,6 +124560,7 @@ const LoginPage = () => {
                   {
                     className: "text_input",
                     type: "email",
+                    defaultValue: "admin@gmail.com",
                     placeholder: "Enter email here",
                     ...register("email", {
                       required: "Email is required",
@@ -124583,6 +124584,7 @@ const LoginPage = () => {
                     className: "text_input",
                     type: showPassword ? "text" : "password",
                     placeholder: "Enter your password",
+                    defaultValue: "password",
                     ...register("password", {
                       required: "Password is required"
                     })
