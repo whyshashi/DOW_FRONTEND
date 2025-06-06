@@ -42072,7 +42072,7 @@ main$1.exports.decrypt = DotenvModule.decrypt;
 main$1.exports.parse = DotenvModule.parse;
 main$1.exports.populate = DotenvModule.populate;
 main$1.exports = DotenvModule;
-const API_BASE_URL = "http://localhost:8000/api";
+const API_BASE_URL = "http://43.204.106.99:8000/api";
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL
 });
