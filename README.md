@@ -11,10 +11,10 @@ This panel is designed to help organizations ensure workplace safety, comply wit
 ## 🔗 Useful Links
 
 - 🌐 **Landing Page:**  
-  [http://3.92.185.115](http://3.92.185.115)
+  [http://43.204.106.99](http://43.204.106.99)
 
 - 🔐 **Admin Login Page:**  
-  [http://3.92.185.115/login](http://3.92.185.115/login)
+  [http://43.204.106.99/login](http://43.204.106.99/login)
 
 - 🖥️ **Frontend GitHub Repository:**  
   [https://github.com/whyshashi/DOW_FRONTEND](https://github.com/whyshashi/DOW_FRONTEND)
